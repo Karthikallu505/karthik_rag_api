@@ -11,7 +11,7 @@ import os
 embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
 
 
-openai.api_key = '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'  
+openai.api_key = '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'  
 
 
 def chunk_text(text, chunk_size=200):
